@@ -54,5 +54,33 @@ def login():
     else:
         return jsonify({'error': 'Invalid credentials'}), 401
 
+# Get all users (new endpoint)
+@app.route('/users', methods=['GET'])
+def get_users():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute('SELECT username FROM users')
+    users = cursor.fetchall()
+    conn.close()
+
+    if users:
+        return jsonify([dict(user) for user in users]), 200
+    else:
+        return jsonify({'message': 'No users found'}), 404
+
+# Get a specific user by username (new endpoint)
+@app.route('/users/<username>', methods=['GET'])
+def get_user(username):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute('SELECT * FROM users WHERE username = ?', (username,))
+    user = cursor.fetchone()
+    conn.close()
+
+    if user:
+        return jsonify(dict(user)), 200
+    else:
+        return jsonify({'error': 'User not found'}), 404
+    
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
