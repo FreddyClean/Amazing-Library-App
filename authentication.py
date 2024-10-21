@@ -1,6 +1,6 @@
 import requests
 
-API_URL = 'http://127.0.0.1:5000'  # Base URL of the API
+API_URL = 'https://amazing-library-app-2.onrender.com/'  # Base URL of the API
 
 def login_user(username, password):
     """Send a POST request to the login endpoint."""
