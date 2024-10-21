@@ -1,0 +1,352 @@
+[
+    {
+        "title": "How not to die in Valorant",
+        "author": " Vivien Therese Basco Villalobos",
+        "genre": "Science",
+        "published_year": 2010,
+        "isbn": "7761819944"
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Alice Johnson",
+        "genre": "Mystery",
+        "published_year": 2001,
+        "isbn": "8589811855"
+    },
+    {
+        "title": "The Secrets of the Universe",
+        "author": "Alice Johnson",
+        "genre": "Mystery",
+        "published_year": 1973,
+        "isbn": "1063436366"
+    },
+    {
+        "title": "The Return of the Monkey King",
+        "author": "Alice Johnson",
+        "genre": "Fantasy",
+        "published_year": 1912,
+        "isbn": "4981987204"
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Chris Lee",
+        "genre": "Fantasy",
+        "published_year": 1966,
+        "isbn": "4358506666"
+    },
+    {
+        "title": "Rise of Pirates",
+        "author": "Jane Doe",
+        "genre": "Biography",
+        "published_year": 1919,
+        "isbn": "2641104104"
+    },
+    {
+        "title": "Learning AI",
+        "author": "Jane Doe",
+        "genre": "Non-Fiction",
+        "published_year": 1989,
+        "isbn": "5575421459"
+    },
+    {
+        "title": "The Burning Blade",
+        "author": "Pongpisut Somsagun",
+        "genre": "Fiction",
+        "published_year": 2006,
+        "isbn": "7636251774"
+    },
+    {
+        "title": "The Silver Blade",
+        "author": "John Doe",
+        "genre": "Non-Fiction",
+        "published_year": 1936,
+        "isbn": "4814061332"
+    },
+    {
+        "title": "Mystery of the Lost Island",
+        "author": "Jane Doe",
+        "genre": "Fantasy",
+        "published_year": 1995,
+        "isbn": "6934733073"
+    },
+    {
+        "title": "1984",
+        "author": " Vivien Therese Basco Villalobos",
+        "genre": "Biography",
+        "published_year": 1942,
+        "isbn": "1454402027"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Emma Wilson",
+        "genre": "Fiction",
+        "published_year": 1962,
+        "isbn": "5203614339"
+    },
+    {
+        "title": "How to Solve Riddle Guide",
+        "author": "Pongpisut Somsagun",
+        "genre": "Fiction",
+        "published_year": 1947,
+        "isbn": "3112794156"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Alice Johnson",
+        "genre": "Fantasy",
+        "published_year": 1962,
+        "isbn": "9924493618"
+    },
+    {
+        "title": "The Return of Flameheart",
+        "author": "Pongpisut Somsagun",
+        "genre": "Science",
+        "published_year": 2014,
+        "isbn": "3580737956"
+    },
+    {
+        "title": "Python Programming 101",
+        "author": " Vivien Therese Basco Villalobos",
+        "genre": "Fiction",
+        "published_year": 1933,
+        "isbn": "4476842140"
+    },
+    {
+        "title": "Domy Bick",
+        "author": " Vivien Therese Basco Villalobos",
+        "genre": "Non-Fiction",
+        "published_year": 1939,
+        "isbn": "3158113456"
+    },
+    {
+        "title": "Diving into Deep Learning",
+        "author": "Chris Lee",
+        "genre": "Biography",
+        "published_year": 1941,
+        "isbn": "5715594665"
+    },
+    {
+        "title": "The Art of War",
+        "author": "Chris Lee",
+        "genre": "Mystery",
+        "published_year": 1991,
+        "isbn": "3331572751"
+    },
+    {
+        "title": "The Return of Flameheart",
+        "author": "Vivien Therese Basco Villalobos",
+        "genre": "Fantasy",
+        "published_year": 2022,
+        "isbn": "5716553749"
+    },
+    {
+        "title": "Learning AI",
+        "author": "Chris Lee",
+        "genre": "Fantasy",
+        "published_year": 1973,
+        "isbn": "5954086302"
+    },
+    {
+        "title": "Mystery of the Lost Island",
+        "author": "Sophia Garcia",
+        "genre": "Biography",
+        "published_year": 1978,
+        "isbn": "7843013550"
+    },
+    {
+        "title": "The Scorched One",
+        "author": "Jane Smith",
+        "genre": "Fantasy",
+        "published_year": 2008,
+        "isbn": "4731692807"
+    },
+    {
+        "title": "1984",
+        "author": "Noah Davis",
+        "genre": "Biography",
+        "published_year": 1968,
+        "isbn": "8894415016"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Bob Brown",
+        "genre": "Fiction",
+        "published_year": 1998,
+        "isbn": "6854039976"
+    },
+    {
+        "title": "Python Programming 101",
+        "author": "Pongpisut Somsagun",
+        "genre": "Fiction",
+        "published_year": 1980,
+        "isbn": "9334926636"
+    },
+    {
+        "title": "The Great Adventure",
+        "author": "Chris Lee",
+        "genre": "Non-Fiction",
+        "published_year": 1919,
+        "isbn": "6918642742"
+    },
+    {
+        "title": "1984",
+        "author": "Jane Smith",
+        "genre": "Fantasy",
+        "published_year": 1922,
+        "isbn": "6740812604"
+    },
+    {
+        "title": "Python Programming 101",
+        "author": "Alice Johnson",
+        "genre": "Non-Fiction",
+        "published_year": 1907,
+        "isbn": "4755974032"
+    },
+    {
+        "title": "Mystery of the Lost Island",
+        "author": " Vivien Therese Basco Villalobos",
+        "genre": "Biography",
+        "published_year": 1989,
+        "isbn": "7503260066"
+    },
+    {
+        "title": "Mystery of the Lost Island",
+        "author": "Chris Lee",
+        "genre": "Science",
+        "published_year": 1965,
+        "isbn": "8581213048"
+    },
+    {
+        "title": "The Art of War",
+        "author": "Alice Johnson",
+        "genre": "Biography",
+        "published_year": 1979,
+        "isbn": "4852756308"
+    },
+    {
+        "title": "The Return of Flameheart",
+        "author": "John Doe",
+        "genre": "Fiction",
+        "published_year": 1910,
+        "isbn": "5614952991"
+    },
+    {
+        "title": "Python Programming 101",
+        "author": "Noah Davis",
+        "genre": "Mystery",
+        "published_year": 1912,
+        "isbn": "8798624977"
+    },
+    {
+        "title": "Mystery of the Lost Island",
+        "author": "Jane Doe",
+        "genre": "Fiction",
+        "published_year": 1912,
+        "isbn": "7426086647"
+    },
+    {
+        "title": "The Secrets of the Universe",
+        "author": "Chris Lee",
+        "genre": "Mystery",
+        "published_year": 1909,
+        "isbn": "6844391988"
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Jane Smith",
+        "genre": "Fiction",
+        "published_year": 2000,
+        "isbn": "5385225656"
+    },
+    {
+        "title": "How to Solve Riddle Guide",
+        "author": "Bob Brown",
+        "genre": "Biography",
+        "published_year": 1991,
+        "isbn": "3596701005"
+    },
+    {
+        "title": "The Great Adventure",
+        "author": "Jane Smith",
+        "genre": "Science",
+        "published_year": 1984,
+        "isbn": "5882914826"
+    },
+    {
+        "title": "Python Programming 101",
+        "author": "Alice Johnson",
+        "genre": "Fantasy",
+        "published_year": 1933,
+        "isbn": "2735870290"
+    },
+    {
+        "title": "Learning AI",
+        "author": " Vivien Therese Basco Villalobos",
+        "genre": "Non-Fiction",
+        "published_year": 1980,
+        "isbn": "3945189647"
+    },
+    {
+        "title": "The Art of War",
+        "author": "Alice Johnson",
+        "genre": "Fiction",
+        "published_year": 1991,
+        "isbn": "1469110356"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Emma Wilson",
+        "genre": "Science",
+        "published_year": 2022,
+        "isbn": "5317121683"
+    },
+    {
+        "title": "The Great Adventure",
+        "author": "Pongpisut Somsagun",
+        "genre": "Mystery",
+        "published_year": 1968,
+        "isbn": "2058165660"
+    },
+    {
+        "title": "1984",
+        "author": "Alice Johnson",
+        "genre": "Science",
+        "published_year": 2021,
+        "isbn": "8736952869"
+    },
+    {
+        "title": "The Great Adventure",
+        "author": "Pongpisut Somsagun",
+        "genre": "Fantasy",
+        "published_year": 1906,
+        "isbn": "7825951594"
+    },
+    {
+        "title": "Python Programming 101",
+        "author": "Chris Lee",
+        "genre": "Science",
+        "published_year": 2002,
+        "isbn": "9434953635"
+    },
+    {
+        "title": "The Secrets of the Universe",
+        "author": "Jane Doe",
+        "genre": "Fiction",
+        "published_year": 2015,
+        "isbn": "2903003032"
+    },
+    {
+        "title": "How to Solve Riddle Guide",
+        "author": "John Doe",
+        "genre": "Fantasy",
+        "published_year": 1998,
+        "isbn": "3172966252"
+    },
+    {
+        "title": "1984",
+        "author": "Chris Lee",
+        "genre": "Science",
+        "published_year": 1930,
+        "isbn": "8215056307"
+    }
+]
