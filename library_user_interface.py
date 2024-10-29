@@ -101,7 +101,7 @@ class LibraryUI:
     def add_background_image(self):
         try:
             # Load the background image using PIL
-            background_image = Image.open("AMAZING LIBRARY/imagesLIBRARY/oioi.jpeg")
+            background_image = Image.open("oioi.jpeg")
             # Create CTkImage for High DPI support
             background_ctk_image = ctk.CTkImage(
                 light_image=background_image,  # Use the same image for light and dark modes
