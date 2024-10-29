@@ -5,11 +5,12 @@ def create_database():
     conn = sqlite3.connect('user_history.db')  
     cursor = conn.cursor()
 
-    # Create user_history table with additional fields
+    # Create user_history table with additional fields, including book_id
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS user_history (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             user_id INTEGER NOT NULL,
+            book_id INTEGER,  -- Added book_id column
             book_title TEXT NOT NULL,
             author_name TEXT NOT NULL,
             borrowed_date TEXT NOT NULL,
@@ -19,7 +20,7 @@ def create_database():
         )
     ''')
 
-    print("Database and table created successfully.")
+    print("Database and table with book_id column created successfully.")
     conn.commit()
     conn.close()
 

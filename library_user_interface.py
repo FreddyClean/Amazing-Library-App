@@ -4,6 +4,7 @@ from PIL import Image
 from borrowing_system import BorrowingSystem
 from catalog import Catalog
 from user_history import get_user_history
+import datetime
 
 class LibraryUI:
     def __init__(self, root, username):
@@ -128,10 +129,12 @@ class LibraryUI:
         if book_id:
             user_id = self.username
             book_details = self.catalog.get_book_details(book_id)
+            book_title = book_details['title']
+            author_name = book_details['author']
 
-            if messagebox.askyesno("Confirm Borrow", f"Do you want to borrow '{book_details['title']}' by {book_details['author']}?"):
-                if self.borrowing_system.borrow_book(book_id, user_id):
-                    due_date = "2024-10-30"
+            if messagebox.askyesno("Confirm Borrow", f"Do you want to borrow '{book_title}' by {author_name}?"):
+                if self.borrowing_system.borrow_book(book_id, user_id, book_title, author_name):
+                    due_date = (datetime.date.today() + datetime.timedelta(days=14)).strftime('%Y-%m-%d')
                     messagebox.showinfo("Success", f"Book borrowed successfully!\nDue Date: {due_date}")
                 else:
                     messagebox.showerror("Error", "This book is currently borrowed by another person.")
@@ -141,8 +144,10 @@ class LibraryUI:
         if book_id:
             user_id = self.username
             book_details = self.catalog.get_book_details(book_id)
+            book_title = book_details['title']
+            author_name = book_details['author']
 
-            if messagebox.askyesno("Confirm Return", f"Do you want to return '{book_details['title']}' by {book_details['author']}?"):
+            if messagebox.askyesno("Confirm Return", f"Do you want to return '{book_title}' by {author_name}?"):
                 if self.borrowing_system.return_book(book_id, user_id):
                     messagebox.showinfo("Success", "Book returned successfully!")
                 else:
@@ -176,7 +181,7 @@ class LibraryUI:
         tree.column('Due Date', width=100, anchor='center')
         tree.column('Return Date', width=100, anchor='center')
 
-        user_id = self.username
+        user_id = self.username  # Assuming `username` is the user ID
         history = get_user_history(user_id)
 
         for record in history:
