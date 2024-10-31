@@ -26,7 +26,7 @@ class Catalog:
 
     def search_books(self, query):
         """Filter books based on the search query"""
-        query = query.lower()
+        query = query.strip().lower()
         return [book for book in self.books if query in book['title'].lower()]
 
     def get_book_details(self, book_id):
